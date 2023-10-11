@@ -1,0 +1,84 @@
+/*
+Theme Name: BIG IDeA
+Theme URI:
+Author: Floe Project
+Author URI: http://floeproject.org/
+Description: Accessible theme for BIG IDeA
+Template: wp-a11y-theme
+Version: 0.0.1
+License:
+License URI:
+Text Domain: a11y
+Tags: accessibility
+*/
+/* Styles specific for Font Awesome */
+span.fa {
+  font: normal normal normal 3rem FontAwesome !important; /* Fix a bug where UIO was replacing icon with adjuster font */
+  display: block;
+}
+.a11y-front-panel h1 {
+  font-size: 1.2rem;
+  text-transform: none;
+  padding: 0.5rem 1.5rem;
+}
+.a11y-front-panel section {
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.a11y-front-panel--no-hover {
+	background-color: #fff;
+	border: 1rem solid #eceded;
+	color: inherit;
+	padding: 0.5rem 1.5rem;
+}
+
+/* Styles for Social media feeds */
+.bi-social-feeds .a11y-front-panel:focus,
+.bi-social-feeds .a11y-front-panel:hover {
+  border-color: #eceded;
+}
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.social-icons a {
+  padding: 1rem 0.5rem;
+  display: inline-block;
+}
+/* Feedback form styling */
+.feedback-post-form textarea:focus,
+.feedback-post-form select:focus,
+.feedback-post-form input:focus {
+  outline: 0.2rem solid #000;
+}
+/* Contrast theme styling */
+.fl-theme-wb .feedback-post-form textarea:focus,
+.fl-theme-wb .feedback-post-form select:focus,
+.fl-theme-wb .feedback-post-form input:focus {
+  outline: 0.2rem solid #fff;
+}
+.fl-theme-yb .feedback-post-form textarea:focus,
+.fl-theme-yb .feedback-post-form select:focus,
+.fl-theme-yb .feedback-post-form input:focus {
+  outline: 0.2rem solid #ff0;
+}
+.fl-theme-lgdg .feedback-post-form textarea:focus,
+.fl-theme-lgdg .feedback-post-form select:focus,
+.fl-theme-lgdg .feedback-post-form input:focus {
+  outline: 0.2rem solid #bdbdbb;
+}
+.fl-theme-by .feedback-post-submit,
+.fl-theme-yb .feedback-post-submit,
+.fl-theme-bw .feedback-post-submit,
+.fl-theme-wb .feedback-post-submit,
+.fl-theme-lgdg .feedback-post-submit {
+  border-style: solid;
+}
+/* Overriding Foundation to work with UIO */
+label,
+p {
+  line-height: inherit;
+}
+span.wpcf7-list-item {
+display:block;
+}

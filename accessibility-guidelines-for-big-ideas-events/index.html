@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.min.css" />
+    <title>Accessible Events Guidelines &#8211; BIG IDeA</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.20.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+					<!-- No tracking code set -->
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bigidea.one\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='badgeos-font-awesome-css' href='//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='sbi_styles-css' href='/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='/wp-includes/css/dist/components/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='/wp-includes/css/dist/block-editor/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='/wp-includes/css/dist/editor/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bos_blocks-bos-style-css-css' href='/wp-content/plugins/badgeos/includes/blocks/dist/blocks.style.build.css?ver=1.0.0' type='text/css' media='1' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.1' type='text/css' media='all' />
+<style id='contact-form-7-inline-css' type='text/css'>
+.wpcf7 .wpcf7-recaptcha iframe {margin-bottom: 0;}.wpcf7 .wpcf7-recaptcha[data-align="center"] > div {margin: 0 auto;}.wpcf7 .wpcf7-recaptcha[data-align="right"] > div {margin: 0 0 0 auto;}
+</style>
+<link rel='stylesheet' id='ctf_styles-css' href='/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='feedback-post-plugin-style-css' href='/wp-content/plugins/feedback-post-plugin/feedback-post-plugin.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-four-css' href='/wp-content/plugins/font-awesome-4-menus/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-css' href='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/src/lib/normalize/css/normalize.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fluid-css' href='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/src/framework/core/css/fluid.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Enactors-css' href='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/src/framework/preferences/css/Enactors.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='PrefsEditor-css' href='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/src/framework/preferences/css/PrefsEditor.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='SeparatedPanelPrefsEditor-css' href='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='uio-css' href='/wp-content/plugins/uio-wordpress-plugin-master/uio.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='badgeos-single-css' href='/wp-content/plugins/badgeos/css/badgeos-single.min.css?ver=3.7.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='a11y-style-css' href='/wp-content/themes/wp-a11y-theme/style.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='/wp-content/themes/big-idea-theme/style.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css' href='/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.min.css?ver=4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cf7cf-style-css' href='/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.3.11' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='/wp-content/plugins/podcast-player-by-tricks-panda/assets/audio.min.js?ver=6.3.1' id='audio.min-js-js'></script>
+<script type='text/javascript' src='/wp-content/plugins/uio-wordpress-plugin-master/lib/infusion/infusion-uiOptions.js?ver=6.3.1' id='infusion-js'></script>
+<script type='text/javascript' id='uio-js-extra'>
+/* <![CDATA[ */
+var phpData = {"pluginUrl":"https:\/\/bigidea.one\/wp-content\/plugins\/uio-wordpress-plugin-master\/","uioTemplateSelector":"body","uioTocSelector":"#main"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/uio-wordpress-plugin-master/uio.js?ver=6.3.1' id='uio-js'></script>
+<script type='text/javascript' id='ai-js-js-extra'>
+/* <![CDATA[ */
+var MyAjax = {"ajaxurl":"https:\/\/bigidea.one\/wp-admin\/admin-ajax.php","security":"04ab15b063"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/advanced-iframe/js/ai.min.js?ver=944683' id='ai-js-js'></script>
+<link rel="https://api.w.org/" href="/wp-json/" /><link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/1145" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.1" />
+<link rel="canonical" href="/accessibility-guidelines-for-big-ideas-events/" />
+<link rel='shortlink' href='/?p=1145' />
+
+
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.inclusivedesign.ca/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><script type="text/javascript">
+    audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+//-->
+</script>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="/wp-content/uploads/2017/03/cropped-BI-logo_COLOUR-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2017/03/cropped-BI-logo_COLOUR-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/2017/03/cropped-BI-logo_COLOUR-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2017/03/cropped-BI-logo_COLOUR-270x270.png" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+
+</head>
+
+<body class="post-template-default single single-post postid-1145 single-format-standard">
+    <div class="row a11y-theme">
+        <nav id="skip" class="small-12 columns">
+            <a  href="#content">Skip to content</a>
+        </nav>
+
+        <header class="small-12 a11y-site-header" role="banner">
+            
+            <div class="small-12 columns">
+                <h1 class="a11y-site-title">
+                    <a href="/" rel="home">BIG IDeA</a>
+                </h1>
+
+                <svg id="corner-flourish" role="presentation">
+                    <use xlink:href="/wp-content/themes/wp-a11y-theme/images/corner-flourish.svg#Layer_1" />
+                </svg>
+
+                <nav class="a11y-main-nav">
+                    <div class="title-bar float-right" data-responsive-toggle="site-menu" data-hide-for="medium">
+                        <button class="menu-icon" type="button" data-toggle="site-menu"></button>
+                    </div>
+
+                    <div id="site-menu">
+                        <div class="top-bar-left a11y-main-nav-items">
+                            <ul class="dropdown menu" data-dropdown-menu>
+                                <li class="show-for-small-only"><a href="/" rel="home">Home</a></li>
+                                <li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32"><a href="/category/about/">About</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28"><a href="/category/businesses/">Businesses</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="/category/customers/">Customers</a></li>
+<li id="menu-item-2708" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2708"><a href="/category/big-idea-events/">News &#038; Events</a></li>
+<li id="menu-item-763" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-763"><a href="/category/showcase/">Showcase</a></li>
+<li id="menu-item-571" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-571"><a href="/category/resources/">Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="a11y-site-main-container row small-12 columns">
+
+<aside class="a11y-site-aside small-12 medium-3 columns" role="complementary">
+                    <ul>
+                    <li><a href="/category/resources/" class="a11y-sidebar-category-link
+                ">
+                    Resources</a></li>
+
+                    <li>
+                        <ul>
+                                                    <li>
+                                <a href="/accessibility-guidelines-for-big-ideas-events/"
+                                                                    class="a11y-sidebar-current"
+                                    aria-current="page"
+                                >
+                                Accessible Events Guidelines                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/feedback-resources/"
+                                >
+                                Feedback Resources                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/aoda/"
+                                >
+                                AODA Compliance                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/attitudes-values-and-leadership/"
+                                >
+                                Attitudes, Values and Leadership                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/resources-communications/"
+                                >
+                                Communications                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/resources-employment-practices/"
+                                >
+                                Employment Practices                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/goods-and-services/"
+                                >
+                                Goods and Services                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/resources-physical-spaces/"
+                                >
+                                Physical Spaces                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/training-and-professional-development/"
+                                >
+                                Training and Professional Development                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                </ul>
+                </aside>
+    <main id="content" class="a11y-site-main columns">
+
+    
+<article id="post-1145" class="post-1145 post type-post status-publish format-standard hentry category-resources category-uncategorized user-has-not-earned">
+    <header class="a11y-entry-header">
+        <h1 class="entry-title">Accessible Events Guidelines</h1>    </header>
+
+    <div class="a11y-entry-content">
+        <p><img decoding="async" fetchpriority="high" class="alignleft size-large wp-image-5555" src="/wp-content/uploads/2019/07/Accessibility_Guidelines_banner-1024x315.png" alt="Accessibility Guidelines" width="1024" height="315" srcset="/wp-content/uploads/2019/07/Accessibility_Guidelines_banner-1024x315.png 1024w, /wp-content/uploads/2019/07/Accessibility_Guidelines_banner-300x92.png 300w, /wp-content/uploads/2019/07/Accessibility_Guidelines_banner-768x236.png 768w, /wp-content/uploads/2019/07/Accessibility_Guidelines_banner-100x31.png 100w, /wp-content/uploads/2019/07/Accessibility_Guidelines_banner.png 1291w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>The Accessibility for Ontarians with Disabilities Act (AODA) is committed to facilitate access to communities for persons of disabilities. One in seven Ontarians currently experiences a disability and this number is expected to increase as population ages. Disability is diverse, it might be someone who: has low or no hearing, has low or no vision, experiences a physical challenge, lives with a mental health issue, lives with speech-challenge or struggles with learning demanding.</p>
+<p>The purpose of this guide is to provide information for event planners to identify and to overcome access challenges in relations to its participants. Planning access should minimize the need for last minute accommodations and it should foster full participation for persons of disabilities. As well, this is in line with <a href="https://www.ontario.ca/page/accessibility-compliance-action-plan">AODAs requirements</a> to ensure disability access for program participants, if the organizer has at least one employee.</p>
+<p>You can download the <strong>Accessibility Guidelines for BIG IDeA&#8217;s Events </strong><a href="/wp-content/uploads/2018/01/Accessibility-Guidelines-for-BigIdea-Events.doc">here</a>.<br />
+An <strong>Accessible Checklist</strong> can be consulted <a href="/accessibility-checklist/">here</a>.</p>
+<h2>Advertising/Registration</h2>
+<p>• Provide ample notice for the upcoming event to allow people to arrange for transportation, assistants or other supports they may require.<br />
+• Include a disability accommodation statement on all event advertising (eg. “For disability accommodations please contact X name, phone number/e-mail by date Z”).<br />
+• Include space on the registration form or on the event notice for people to identify their accommodations or special needs (eg. “If you have a disability that may require accommodations to participate please indicate here ___. How would you like to be contacted to discuss your needs (phone, email)?” | “Please check the accommodations needed in order to participate: ____interpreting (ASL, oral, signed English) ____large print ____captioned videos ____an assistance dog will accompany me ____a personal care attendant will accompany me ____communication access in real time (CART) ____Braille ____handouts in electronic format ____ wheelchair access”).<br />
+• If you are serving food, give participants a chance to request dietary preferences.<br />
+• Include contact information (e.g., phone number and e‐mail address) so that attendees can contact you with their special, confidential requests. (see previous examples).<br />
+• Follow up with people who request accommodations in a timely fashion to inform them whether or not these will be available.<br />
+• Indicate whether there are any fees for admission or materials, note that fees should not apply to any accompanying support persons.<br />
+• On posters or information sheets, include international accessibility symbols indicating accessibility (e.g. wheelchair access, captioning, sign language interpretation).<br />
+• Promote a scent‐free practice for all events.</p>
+<h2>Planning ahead</h2>
+<p>• Train event volunteers about how to respectfully assist people with disabilities and to respond to any accessibility issues that may arise.<br />
+• Make sure that volunteers are easily identified (use name tags and/or other identifiers).<br />
+• Remind your volunteers not to make assumptions about what a person with a disability can or cannot do. Tell them to simply ask, “How may I help you?”<br />
+• Book any access supports being provided in plenty of time to ensure availability. (e.g. Sign Language interpreters, real-time captioning, note-takers, attendants etc.).<br />
+• Provide interpreters, captioners and note takers with agendas and presentation outlines in advance of the event.<br />
+• At the event, be sure the interpreters and/or captioners are introduced and explain what they will be doing during the event.<br />
+• If many of your attendees have children and the event is being held during non‐business hours, you may want to offer childcare services.<br />
+• If food is provided, ensure the count includes interpreters, attendants, child‐minders, etc.<br />
+• Remind participants as well as volunteers and service providers of the scent‐free practice.</p>
+<h2>The Venue</h2>
+<p>• Make sure transport options for getting to the venue are realistic for persons with disabilities (event venue close to public transportation, transit vehicles serving the route should be accessible, knowledgeable to indicate pick-up/drop off areas).<br />
+• Provide info about accessible parking and create a sufficient number of accessible parking spaces. Determine the approximate distance between accessible parking and the venue. It’s helpful to use arrival, exit and directional signs that are clear and can be read in all light conditions.<br />
+• Make sure that wheelchair access is via the main entrance. Alternatively, post clear, legible signs at the main entrance showing alternative, safe and accessible entrances.<br />
+• Make sure outdoor and indoor paths are barrier-free (move garbage cans, sandwich boards, if needed). Avoid soft, thick pile carpeting or loose mats.<br />
+• Make sure persons with disabilities can reach all areas used at the event independently or with assistance from volunteers (e.g., doors, the registration desk, washroom, change room etc.). Check the space inside washroom to see if a wheelchair can manage, check for grab bars and the access to sink, soap and paper towels. Make sure accessible washrooms are available within a reasonable distance.<br />
+• Preferably, elevators should have low buttons for wheelchair users, Braille/raised number markings or audible floor announcements for people who are blind or with low vision, and visual floor indicators for people who are Deaf, deafened or hard of hearing.<br />
+• Post clear and easy-to-read signs showing locations of accessible washrooms, elevators, phones, etc.</p>
+<h2>Room Set-up</h2>
+<p>• Allow for easy movement for wheelchair and scooter users (rearrange furniture if needed). Choose a room with wide aisles and plenty of space around tables.<br />
+• Include accessible seating areas interspersed throughout the room where possible – front, middle and back.<br />
+• Reserve seating for people with various disabilities, and consider the nature of their disability when doing so (people who rely on lip reading will need to sit closer to speakers).<br />
+• Provide a variety of chairs with and without armrests if available. Provide seating for those who can’t stand for long periods at events where people will be mostly standing.<br />
+• Good lighting (bright, without glare and allows for adjustment).<br />
+• Good acoustics (minimal echo). If possible, arrange for provision of Assistive Listening Devices (e.g., an FM system). Wherever possible, try to eliminate or reduce background noise during proceedings.<br />
+• Make sure accessible washrooms are available within a reasonable distance.<br />
+• Cover electrical cables or cords that cross over aisles or pathways so wheelchair users, as well as people who use canes and walkers, can traverse easily and safely across them.<br />
+• Ensure that all parts of the event are smoke‐free.<br />
+• Make sure organizers, presenters and volunteers are aware of emergency evacuation procedures.</p>
+<h2>Suggestions for effective presenters</h2>
+<p>• Remind presenters to end meetings or presentations on schedule (important for people making advance transit arrangements and for pre-booked support people).<br />
+• Produce materials in large print (16‐point type or larger) and have available electronically in case of a request for such a format.<br />
+• It is always good to have a few print copies on hand. Encourage and support presenters to offer copies of their material in different formats before their presentation starts.<br />
+• Ideally, lectern heights and audio/visual controls should be adjustable to meet the needs of different speakers.<br />
+• During the session, presenters should verbally describe contents of videos, or any written materials, including overheads or chalkboard notes for audience members with vision loss.<br />
+• Encourage presenters to use captioned videos.<br />
+• Organizers or presenters should check with the audience about the need for breaks.</p>
+<h2>Food and Refreshments</h2>
+<p>• If it is a buffet-style event, be sure to place food, drinks and utensils in easy reach of a person using a wheelchair.<br />
+• Provide bendable straws as well as some cups with handles. People who have limited use of their hands have difficulty grasping or holding objects such as cups.<br />
+• Ask volunteers to offer assistance or seated service to guests with disabilities.</p>
+<h2>Service Animals</h2>
+<p>• Do not pet service animals.<br />
+• Make sure there is a relief area for them and make sure their owners know where it is.<br />
+• Provide a water bowl on hand.</p>
+<h2>Budgeting the event</h2>
+<p>• Set aside some funds early in the planning stage for accessibility and in the event of requests for communication supports and accessible formats. event</p>
+<h2>Evaluating the event</h2>
+<p>• Be sure evaluation forms are accessible and include a section about the accessibility of the event. This can provide valuable information for use in planning future event plans.</p>
+<h1>Accessibility Checklist</h1>
+<p>The “Accessible BIG IDeA Checklist” entails a list of suggestions that would make the events running under BIG IDeA project more accessible. It is based on the <a href="/accessibility-guidelines-for-big-ideas-events/">Accessibility Guidelines for BIG IDeA&#8217;s Events</a>, a guide that provides information for event planners to identify and to overcome access challenges in relations to its participants.</p>
+<h2>Contact Details</h2>
+<p>&#8211; Name of the Event<br />
+&#8211; Date and Time<br />
+&#8211; Location<br />
+&#8211; Number of attendees</p>
+<h2>Advertising/Registration</h2>
+<p>&#8211; Have you provided ample notice to allow people to arrange accommodations?<br />
+&#8211; Have you included a disability accommodation statement on all advertising?<br />
+&#8211; Have you collected info about special needs through registration forms?<br />
+&#8211; Has your staff identified the dietary preferences of the participants?<br />
+&#8211; Does your advertising include contact information for accessibility requests?<br />
+&#8211; Has your staff followed up with responses to accommodation requests?<br />
+&#8211; Does your advertising include international accessibility symbols?<br />
+&#8211; Is your place scent-free, as a rule?</p>
+<h2>Planning ahead</h2>
+<p>&#8211; Have you trained volunteers to accommodate accessibility issues?<br />
+&#8211; Can people with disabilities clearly identify those volunteers?<br />
+&#8211; Have you reminded your volunteers to ask guests, “How may I help you?”<br />
+&#8211; Have you booked accessibility supports in advance?<br />
+&#8211; Have you informed interpreters, captioners and note-takers in advance?<br />
+&#8211; Will you explain the tasks of interpreters/captioners during worship?<br />
+&#8211; Have you considered childcare outside of business hours?<br />
+&#8211; Have you considered food for interpreters, attendants, and child‐minders?<br />
+&#8211; Have you reminded organizers and staff of your scent‐free practice/policy?</p>
+<h2>The Venue</h2>
+<p>&#8211; Has your staff suggested realistic transport options?<br />
+&#8211; Have you provided info about accessible parking?<br />
+&#8211; Have you offered the main wheelchair access and alternatives?<br />
+&#8211; Have you made outdoor and indoor pathways free of barriers?<br />
+&#8211; Have you given access to all needed indoor space independently or with assistance?<br />
+&#8211; Have you made elevators fully-inclusive for diverse end-users (ideally, at least)?<br />
+&#8211; Have you provided inclusive, clear, high-contrast signage?</p>
+<h2>Room Set-up</h2>
+<p>&#8211; Have you set up the space to be generous to users of wheelchairs and scooters?<br />
+&#8211; Have you provided accessible seating areas in front, middle and back, if possible?<br />
+&#8211; Have you reserved seating for people with disabilities?<br />
+&#8211; Do/es your room/s include adjustable lighting?<br />
+&#8211; Do your acoustics provide minimal echo?<br />
+&#8211; Are washrooms accessible, and at an adequate distance for all users?<br />
+&#8211; Are electrical cables/cords covered securely for a safe crossover?<br />
+&#8211; Does your community promote a smoke‐free environment?<br />
+&#8211; Are organizers, presenters and volunteers trained for emergency evacuations?</p>
+<h2>Suggestions for effective presenters</h2>
+<p>&#8211; Have you reminded presenters to end meetings or presentations on schedule?<br />
+&#8211; Have you offered participants materials in large-print and digital formats?<br />
+&#8211; Have you had extra hardcopies printed?<br />
+&#8211; Are audio/visual controls adjustable?<br />
+&#8211; Can you offer verbal descriptions of visual contents?<br />
+&#8211; Are any and all videos captioned?<br />
+&#8211; Have you provided participants with necessary bio or dietary breaks?</p>
+<h2>Food and Refreshments</h2>
+<p>&#8211; Would persons, using wheelchairs, find your food, drinks and utensils easy to reach?<br />
+&#8211; Are bendable straws and cups with handles available?<br />
+&#8211; Is food/buffet assistance available?</p>
+<h2>Service Animals</h2>
+<p>&#8211; Remember to discourage participants from petting service animals!<br />
+&#8211; Have you offered a relief area for service animals?<br />
+&#8211; Have you provided service animals with a water-bowl?</p>
+<h2>Budgeting the event</h2>
+<p>&#8211; Have you considered in advance funds for planning and providing accommodations?</p>
+<h2>Evaluating the event</h2>
+<p>&#8211; Have you considered and provided evaluation forms in accessible formats?</p>
+    </div>
+
+    </article><!-- #post-## -->
+    </main>
+
+    </div>
+
+    <footer class="small-12 columns a11y-site-footer text-center" role="contentinfo">
+        <p>
+            <p>
+<img class="alignnone size-medium wp-image-655" src="/wp-content/uploads/2017/03/unnamed-1-300x270.png" alt="Logo for the inclusive design research centre at OCAD University" width="150" height="auto" />
+ </p>
+<div>
+Follow Us on Social Media
+<div class="social-icons">
+       <a href="https://www.facebook.com/bigideaproj/" class="btn facebook">
+<span class="fa fa-facebook"> </span></a>
+
+<a href="https://twitter.com/bigideaproj" class="btn twitter"><span class="fa fa-twitter"></span></a>
+
+<a href="https://www.linkedin.com/organization/11083291" class="btn linkedin"><span class="fa fa-linkedin"></span></a>
+  
+<a href="https://www.instagram.com/bigideaproj/" class="btn instagram"><span class="fa fa-instagram"></span></a>
+</div>
+</div>
+
+<div>
+An EnAbling Change Project with the Government of Ontario
+</div>        </p>
+
+        <svg id="ontario-logo" role="presentation">
+            <use xlink:href="/wp-content/themes/wp-a11y-theme/images/ontario-logo.svg#Layer_1" />
+        </svg>
+    </footer>
+</div>
+
+<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">var cffajaxurl = "/wp-admin/admin-ajax.php";
+var cfflinkhashtags = "true";
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "/wp-admin/admin-ajax.php";
+</script>
+<link rel='stylesheet' id='badgeos-front-css' href='/wp-content/plugins/badgeos/css/badgeos-front.min.css?ver=3.7.1.4' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.1' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/bigidea.one\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='/wp-content/plugins/custom-facebook-feed/assets/js/cff-scripts.min.js?ver=4.2' id='cffscripts-js'></script>
+<script type='text/javascript' id='wpcf7cf-scripts-js-extra'>
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/bigidea.one\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.3.11' id='wpcf7cf-scripts-js'></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(document).foundation();
+    });
+</script>
+</body>
+</html>
